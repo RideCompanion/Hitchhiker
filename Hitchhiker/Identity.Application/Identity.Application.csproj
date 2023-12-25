@@ -7,4 +7,13 @@
         <RootNamespace>Identity.App</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Commands\" />
+      <Folder Include="Queries\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Identity.Infrastructure\Identity.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>
